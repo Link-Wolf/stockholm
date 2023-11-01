@@ -7,7 +7,7 @@
  <a href="https://github.com/Link-Wolf/stockholm/stargazers"><img src="https://img.shields.io/github/stars/Link-Wolf/stockholm?style=for-the-badge&color=yellow" alt="stars - stockholm"></a>
  <a href="https://github.com/Link-Wolf/stockholm/network/members"><img src="https://img.shields.io/github/forks/Link-Wolf/stockholm?style=for-the-badge&color=lightgray" alt="forks - stockholm"></a>
  <a href="https://github.com/Link-Wolf/stockholm/issues"><img src="https://img.shields.io/github/issues/Link-Wolf/stockholm?style=for-the-badge&color=orange" alt="issues - stockholm"></a>
- <a href="https://www.apple.com/macos/" title="Go to Apple homepage"><img src="https://img.shields.io/badge/OS-macOS-blue?logo=apple&logoColor=white&style=for-the-badge&color=9cf" alt="OS - macOS"></a>
+ <a href="https://www.linux.org/" title="Go to Linux homepage"><img src="https://img.shields.io/badge/OS-linux-blue?logo=linux&logoColor=white&style=for-the-badge&color=9cf" alt="OS - linux"></a>
 </div>
 
 <!-- PROJECT LOGO -->
