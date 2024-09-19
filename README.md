@@ -46,16 +46,16 @@
     </li>
     <li><a href="#usage-examples">Usage examples</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
 <!-- GOAL -->
+
 ## Goal
 
 <div align="center">
   <a>
-	<img src="https://academy.avast.com/hs-fs/hubfs/New_Avast_Academy/What%20is%20Malware/What_Is_Malware-Hero.png?width=1200&name=What_Is_Malware-Hero.png" alt="stockholm">
+	<img src="assets/stockholm_illu.webp" alt="stockholm illu">
   </a>
 </div>
 </br>
@@ -63,12 +63,13 @@
 This cybersecurity project aims to understand how a malware works and focus on ransomware.In our case the program will only affect a small portion of the local files.
 
 Since it's only a prototype, there's isn't any ransom to pay to decrypt the files. Plus, the program will only affect the files in the `~/infection` directory and the spread will stay local.
-> The program is written in C++
 
+> The program is written in C++
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 Because it's a simple C++ project, there isn't much to say here
@@ -83,47 +84,46 @@ Having a C++ compiler like c++
 
 1. Clone the repo
 
-   ```sh
-   $> git clone https://github.com/Link-Wolf/stockholm.git
-   ```
+    ```sh
+    $> git clone https://github.com/Link-Wolf/stockholm.git
+    ```
 
 2. Compile the program
-	
-   ```sh
-   $> cd stockholm
-   $> make
-   ```
+
+    ```sh
+    $> cd stockholm
+    $> make
+    ```
 
 3. Execute it
 
-   ```sh
-   $> ./stockholm [(-h|--help)|(-v|--version)] [(-s|--silent)] [(-r|--reverse) KEY]
-   ```
-   > The `-h` (or `--help`) option is used to display the help message
-   > The `-v` (or `--version`) option is used to display the version of the program
-   > The `-s` (or `--silent`) option is used to run the program in silent mode and avoid the display of each file affected
-   > The `-r` (or `--reverse`) option is used to decrypt the files affected by the program. The `KEY` is the key used to decrypt the files
+    ```sh
+    $> ./stockholm [(-h|--help)|(-v|--version)] [(-s|--silent)] [(-r|--reverse) KEY]
+    ```
 
-
-
+    > The `-h` (or `--help`) option is used to display the help message
+    > The `-v` (or `--version`) option is used to display the version of the program
+    > The `-s` (or `--silent`) option is used to run the program in silent mode and avoid the display of each file affected
+    > The `-r` (or `--reverse`) option is used to decrypt the files affected by the program. The `KEY` is the key used to decrypt the files
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage examples
 
-![](https://cdn.discordapp.com/attachments/907303542438629406/1130439387038101514/image.png)
+![infection process](https://cdn.discordapp.com/attachments/907303542438629406/1130439387038101514/image.png)
 
 The whole `~/infection` directory is affected by the program
 
-![](https://cdn.discordapp.com/attachments/907303542438629406/1130439387038101514/image.png)
+![decryption process](https://cdn.discordapp.com/attachments/907303542438629406/1130439387038101514/image.png)
 
 Decrypting the files with the key
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -134,14 +134,5 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTACT -->
-## Contact
-
-Mail : xxxxxxx@student.42mulhouse.fr
-
-Project Link: [https://github.com/Link-Wolf/stockholm](https://github.com/Link-Wolf/stockholm)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
