@@ -112,11 +112,11 @@ Having a C++ compiler like c++
 
 ## Usage examples
 
-![infection process](https://cdn.discordapp.com/attachments/907303542438629406/1130439387038101514/image.png)
+![](https://cdn.discordapp.com/attachments/907303542438629406/1130439387038101514/image.png)
 
 The whole `~/infection` directory is affected by the program
 
-![decryption process](https://cdn.discordapp.com/attachments/907303542438629406/1130439387038101514/image.png)
+![](https://cdn.discordapp.com/attachments/907303542438629406/1130439387038101514/image.png)
 
 Decrypting the files with the key
 
