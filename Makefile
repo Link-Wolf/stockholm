@@ -6,7 +6,7 @@
 #    By: xxxxxxx <xxxxxxx@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/14 13:51:42 by xxxxxxx           #+#    #+#              #
-#    Updated: 2023/09/14 13:51:43 by xxxxxxx          ###   ########.fr        #
+#    Updated: 2024/09/25 14:31:05 by xxxxxxx          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,13 +26,13 @@ INCS		=	$(addsuffix .hpp, $(addprefix $(INCS_FOLD), $(INCS_FILE)))
 OBJS		=	$(SRCS:.cpp=.o)
 
 CC			=	c++
-CFLAGS		=	-Wall -Wextra -Werror
+CFLAGS		=	-Wall -Wextra -Werror -std=c++17
 RM			=	rm -f
 
 all:			$(NAME)
 
 $(NAME):		$(OBJS) $(CLASS_OBJS) $(INCS)
-				$(CC) $(CFLAGS) $(OBJS) -o $(NAME)
+				$(CC) $(CFLAGS) -lstdc++fs $(OBJS) -o $(NAME)
 
 .cpp.o:
 				$(CC) $(CFLAGS) -c $< -o $@
