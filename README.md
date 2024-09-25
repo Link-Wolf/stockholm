@@ -112,13 +112,15 @@ Having a C++ compiler like c++
 
 ## Usage examples
 
-![](https://cdn.discordapp.com/attachments/907303542438629406/1130439387038101514/image.png)
+![](assets/pre_infection.png)
 
 The whole `~/infection` directory is affected by the program
 
-![](https://cdn.discordapp.com/attachments/907303542438629406/1130439387038101514/image.png)
+![](assets/infection.png)
 
 Decrypting the files with the key
+
+![](assets/uninfection.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
