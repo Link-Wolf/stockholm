@@ -15,7 +15,7 @@ int C2Stockholm::init() {
         return -1;
     }
 
-    int opt = 0;
+    int opt = 1;
     if (setsockopt(sockfd_, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt)) < 0) {
         std::cerr << RED << "Failed to set socket options" << RESET << std::endl;
         return -1;
