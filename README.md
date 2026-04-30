@@ -2,7 +2,6 @@
 
 <div align="center">
  <a href="https://github.com/Link-Wolf/stockholm" title="Go to GitHub repo"><img src="https://img.shields.io/static/v1?label=Link-Wolf&message=stockholm&color=blue&logo=github&style=for-the-badge" alt="Link-Wolf - stockholm"></a>
- <a href="https://"><img src="https://img.shields.io/badge/42_grade-100%2F_100-brightgreen?style=for-the-badge" alt="42 grade - 100 / 100"></a>
  <a href="https://"><img src="https://img.shields.io/badge/Year-2022-ffad9b?style=for-the-badge" alt="Year - 2022"></a>
  <a href="https://github.com/Link-Wolf/stockholm/stargazers"><img src="https://img.shields.io/github/stars/Link-Wolf/stockholm?style=for-the-badge&color=yellow" alt="stars - stockholm"></a>
  <a href="https://github.com/Link-Wolf/stockholm/network/members"><img src="https://img.shields.io/github/forks/Link-Wolf/stockholm?style=for-the-badge&color=lightgray" alt="forks - stockholm"></a>
@@ -13,11 +12,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a>
-    <img src="https://www.42mulhouse.fr/wp-content/uploads/2022/06/logo-42-Mulhouse-white.svg" alt="Logo" width="192" height="80">
-  </a>
 
-  <h3 align="center">Piscine Cybersecurity - stockholm</h3>
+  <h3 align="center">stockholm</h3>
 
   <p align="center">
    <em>Harmless malware</em><br/>
@@ -60,7 +56,7 @@
 </div>
 </br>
 
-This cybersecurity project aims to understand how a malware works and focus on ransomware.In our case the program will only affect a small portion of the local files.
+This cybersecurity project aims to understand how a malware works and focus on ransomware. In our case the program will only affect a small portion of the local files.
 
 Since it's only a prototype, there's isn't any ransom to pay to decrypt the files. Plus, the program will only affect the files in the `~/infection` directory and the spread will stay local.
 
